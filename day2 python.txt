@@ -1,0 +1,105 @@
+ understanding the varible in python
+x=1
+y=1
+
+2=x+y
+print(2)
+5
+
+rules for declaring the variable in python
+rule-1 : no namespace while declaring the variable name.
+first name = 'Faiyaz'
+print(first name)
+
+first name = 'Faiyaz'
+syntaxError:invalid syntax
+
+firstname = 'Faiyaz'
+print(firstname)
+Faiyaz
+
+rule no 2 :a variable name should not start with number **
+1name = 'ravi'
+print(name)
+
+input in (5)
+1name = 'ravi'
+
+syntaxError: invalid syntax
+
+name1 = 'ravi'
+print(name1)
+ravi
+
+rule no 3 :a variable name should not contain any special characters
+@$%&* ====> speciaal characters===> not allowed |
+
+name@ = 'shifa'
+print(name@)
+
+input in[3]
+name@ = 'shifa'
+
+syntaxError: invalid syntax
+
+
+introduction to data types in python
+1. string ====>  str
+2. number ====> 1 integers === int 2. floats====>decimals
+3. lists ====>list
+4. triples===>triple
+5. dictionaries===>dict
+
+classification of datatypes:
+data types are classified broadly in to two categeories
+1. mutable datatypes ====>which we can edit and alter =======> flexible
+2. imutable datatypes ===> which we cannot able to edit and alter ====>fixed
+
+introduction to string datatype |
+
+defination: A string is a series of characters declared in quotes.
+classification:it is classified as imutable datatype.
+how to define string datatype =====?
+3 possible ways :
+1. single quote ====> ''
+2. double quote ====> ""
+3. triple quote ====> "' "'
+
+name= 'naveen' a single quote
+print(name)
+naveen
+
+name2 = "arshad" a double quote
+print(name2)
+arshad
+
+name3 = "'joseph "''
+print(name3)
+joseph
+
+introduction to string methods :
+type(name)
+str
+type(name2)
+str
+
+type(name3)
+str
+
+fullname = 'ravi kumar'
+print(fullname)
+ravi kumar
+
+print(fullname.title())
+Ravi Kumar
+
+#req :  i want to cmplete name in capital letters
+print(fullname.upper())
+RAVI KUMAR
+
+#req : i want to complete name in small case letters
+print(fullname.lower())
+ravi kumar
+
+
+
