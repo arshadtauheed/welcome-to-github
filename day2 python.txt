@@ -32,7 +32,7 @@ print(name1)
 ravi
 
 rule no 3 :a variable name should not contain any special characters
-@$%&* ====> speciaal characters===> not allowed |
+@$%&* ====> special characters===> not allowed |
 
 name@ = 'shifa'
 print(name@)
@@ -93,7 +93,7 @@ ravi kumar
 print(fullname.title())
 Ravi Kumar
 
-#req :  i want to cmplete name in capital letters
+#req :  i want to complete name in capital letters
 print(fullname.upper())
 RAVI KUMAR
 
